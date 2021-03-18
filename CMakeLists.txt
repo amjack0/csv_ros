@@ -3,7 +3,7 @@ set (CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(CsvTex) #CsvTex
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
-include_directories(${PROJECT_SOURCE_DIR}/include/CsvTex)
+#include_directories(${PROJECT_SOURCE_DIR}/include/CsvTex)
 
 find_package(PythonLibs 2.7)
 find_package(Eigen3 REQUIRED)
